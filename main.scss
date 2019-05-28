@@ -1,0 +1,26 @@
+body {
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 95vh;
+}
+#container {    
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+#ball {
+    border-radius: 200px;
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+}
+
+#label p{
+    color: whitesmoke;
+    font-family: 'Montserrat';
+}
