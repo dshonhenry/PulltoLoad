@@ -12,7 +12,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 95vh;
+  height: 100vh;
+  margin: 0%;
+  overflow: hidden;
 }
 
 #container {
@@ -32,10 +34,14 @@ body {
 }
 
 #ball {
+  position: relative;
   border-radius: 200px;
   height: 100px;
   width: 100px;
+  margin: auto;
   background-color: whitesmoke;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
 }
 
 #label p {
